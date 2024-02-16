@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>shopping cart</title>
+  </head>
+  <body>
+    <section class="container-products">
+      <header class="header__products">
+        <span class="title">LocalCart//</span>
+        <span class="made">made for you</span>
+      </header>
+      <main class="main__products">
+        <div class="carts">
+          <h3 class="carts__title color--text">Cart items</h3>
+          <div class="carts__btn">
+            <button class="btn btn--clear">clear the cart</button>
+            <button class="btn btn--checkout">Checkout</button>
+          </div>
+          <p class="carts__nothing">Nothing to see here</p>
+          <div class="carts__item">
+            <!-- <div class="cart__item">
+              <span class="name">Orange</span>
+              <span class="label">4 pices for 48$</span>
+            </div>
+            <div class="cart__item">
+              <span class="name">Apple</span>
+              <span class="label">4 pieces for 40$</span>
+            </div>
+            <div class="cart__item">
+                <span class="name">Apple</span>
+                <span class="label">4 pieces for 40$</span>
+              </div>
+          </div> -->
+        </div>
+        <p class="carts__total__price">Total price: <strong>0$</strong></p>
+        </div>
+        <div class="products">
+          <h3 class="products__title">Some products</h3>
+          <div class="products__detail">
+            <div class="product__detail">
+                <img src="./images/orange.png" alt="orange" />
+                <p class="name">Orange</p>
+                <input type="number" / class="input" value="1" data-input="1">
+                <button class="btn btn--add" data-id="1">Add to cart</button>
+              </div>
+              <div class="product__detail">
+                <img src="./images/apple.jpg" alt="apple" />
+                <p class="name">Orange</p>
+                <input type="number" / class="input" value="1" data-input="2">
+                <button class="btn btn--add" data-id="2">Add to cart</button>
+              </div>
+              <div class="product__detail">
+                <img src="./images/peach.jpg" alt="peach" />
+                <p class="name">Orange</p>
+                <input type="number" / class="input" value="1" data-input="3">
+                <button class="btn btn--add" data-id="3">Add to cart</button>
+              </div>
+          </div>
+        </div>
+      </main>
+      <script src="./app.js"></script>
+    </section>
+  </body>
+</html>
