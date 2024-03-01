@@ -28,8 +28,10 @@ let carts = getCart(); // get the cart from localStorage
 
 // functions
 function addToCart(e) {
-  const id = e.target.dataset.id;
+  // save products in local storage 
+  saveProducts(products);
 
+  const id = e.target.dataset.id;
   // const selectedProduct = products.find((product) => product.id == id);
   const selectedProduct = getProduct(id);
 
